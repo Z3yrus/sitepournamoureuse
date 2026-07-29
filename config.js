@@ -5,52 +5,52 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Chloé",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Veux-tu être mon amoureuse pour toujours ?💖💖💖",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['❤️', '💖', '💞​', '💗', '💓'],  // Heart emojis
+        bears: ['🐻', '🌸​']                       // Cute bear emojis
     },
 
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Tu m'aimes toujours ?",                                    // First interaction
+            yesBtn: "Oui",                                             // Text for "Yes" button
+            noBtn: "Non :(",                                               // Text for "No" button
+            secretAnswer: "Je ne t'aimes pas, je suis fou de toi !!!"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "A quel point tu m'aimes ?",                          // For the love meter
+            startText: "A ce point ?",                                   // Text before the percentage
+            nextBtn: "Suivant ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Veux tu être présente dans ma vie, et ceux pour toute la vie ? 🌹", // The big question!
+            yesBtn: "Ouii!",                                             // Text for "Yes" button
+            noBtn: "Dnion"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WAOUUUUUHHHHH TOUT CET AMOUR QUE POUR MOI ❤️🥰❤️🥰❤️🥰❤️🥰❤️ ",  // Shows when they go past 5000%
+        high: "Toujours plus namoureux 🥰🥰🥰",              // Shows when they go past 1000%
+        normal: "Tu as déjà dépassé les 100%❤️🥰 "                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        title: "OUIIIIIIII JE SUIS LE PLUS CHANCEUX ET LE PLUS HEUREUX DE TOUTE LA TERRE !!❤️❤️❤️❤️❤️",
+        message: "Maintenant viens me faire un gros calîn pti coeur🥰 ",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -78,9 +78,9 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
+        musicUrl: "https://res.cloudinary.com/dtu1cef3/video/upload/v1785363989/Tame_Impala_-_Let_It_Happen_Official_Audio_sdn5xh.mp3", // Music streaming URL
+        startText: "🎵 Jouer la musique",        // Button text to start music
+        stopText: "🔇 Arrêter la musique",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
     }
 };
